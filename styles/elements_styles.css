@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Header
+	3.1 Logo
+	3.2 Main Nav
+	3.3 Header Side
+	3.4 Hamburger
+4. Menu
+	4.1 Menu Social
+	4.2 Menu copyright
+5. Home
+7. Page Section
+8. Elements
+	8.1 Buttons
+	8.2 Progress Bars
+	8.3 Accordions
+	8.4 Loaders
+	8.5 Milestones
+	8.6 Icon Boxes
+9. Footer
+	9.1 Footer Copyright
+
+
+******************************/
+
+/***********
+1. Fonts
+***********/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Roboto:400,500,700');
+
+
+
+/*********************************
+8.3 Accordions
+*********************************/
+
+.elements_accordions
+{
+	    margin-top: 25px;
+}
+.accordion_container
+{
+	margin-bottom: 15px;
+}
+.accordion
+{
+	height: 60px;
+	width: 100%;
+	background: #FFFFFF;
+	padding-left: 30px;
+	cursor: pointer;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion.active
+{
+	background: #2980b9;
+	color: #FFFFFF;
+}
+.accordion:active
+{
+	background: #2980b9 !important;
+	color: #FFFFFF;
+}
+.accordion::after
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 62px;
+	height: 100%;
+	content: '+';
+	background: #2980b9;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: 500;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion.active::after
+{
+	content: '-';
+}
+.accordion:hover
+{
+	background: #2980b9;
+	color: #FFFFFF;
+}
+.accordion_panel
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	max-height: 0;
+	overflow: hidden;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.accordion_panel p
+{
+	padding-top: 15px;
+}
+

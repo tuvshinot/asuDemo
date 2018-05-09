@@ -1,0 +1,80 @@
+	<!-- Events -->
+	<div class="events page_section">
+		<div class="container">
+			
+			<div class="row">
+				<div class="col">
+					<div class="section_title text-center">
+						<h1>Upcoming Events</h1>
+					</div>
+				</div>
+			</div>
+			
+			<div class="event_items">
+
+				<!-- Event Item -->
+				<div class="row event_item">
+					<div class="col">
+						<div class="row d-flex flex-row align-items-end">
+
+							<div class="col-lg-6 col-md-6 col-sm-12 order-2">
+								<div class="blog-card">
+									<div class="photo photo1"></div>
+									<div class="description">
+										<h1>Learning to Code</h1>
+										<p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto Ad eum dolorum architecto ...</p>
+										<a href="#">Read More</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-12 order-3">
+								<div class="blog-card">
+									<div class="photo photo1"></div>
+									<div class="description">
+										<h1>Learning to Code</h1>
+										<p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto Ad eum dolorum architecto...</p>
+										<a href="#">Read More</a>
+									</div>
+								</div>
+							</div>						
+
+						</div>	
+					</div>
+				</div>
+
+				<!-- Event Item -->
+				<div class="row event_item">
+					<div class="col">
+						<div class="row d-flex flex-row align-items-end">
+
+							<div class="col-lg-6 col-md-6 col-sm-12 order-2">
+								<div class="blog-card">
+									<div class="photo photo1"></div>
+									<div class="description">
+										<h1>Learning to Code</h1>
+										<p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto Ad eum dolorum architecto ...</p>
+										<a href="#">Read More</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-6 col-md-6 col-sm-12 order-3">
+								<div class="blog-card">
+									<div class="photo photo1"></div>
+									<div class="description">
+										<h1>Learning to Code</h1>
+										<p class="summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto Ad eum dolorum architecto ...</p>
+										<a href="#">Read More</a>
+									</div>
+								</div>
+							</div>
+
+						</div>	
+					</div>
+				</div>
+
+			</div>
+				
+		</div>
+	</div>
