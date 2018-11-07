@@ -57,7 +57,7 @@
 			<nav class="main_nav_container">
 				<div class="main_nav myMenu">
 					<ul class="main_nav_list">
-						<li class="main_nav_item"><a href=" ">Главная</a></li>						
+						<li class="main_nav_item"><a href=" " class="activeNavEl">Главная</a></li>						
 						<li class="main_nav_item"><a href="department/about">О кафедре</a></li>
 						<li class="main_nav_item"><a href="#">Научная работа </a></li>
 						<!-- <li class="main_nav_item"><a href="#">ПУБЛИКАЦИИ</a></li> -->
